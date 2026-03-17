@@ -20,7 +20,7 @@
 
     /* Layout */
     --max-width: 1200px;
-    --section-spacing: 6rem;
+    --section-spacing: 3.5rem;
     --border-radius: 16px;
 
     /* Glassmorphism - Adjusted for light mode */
@@ -274,7 +274,7 @@ ul {
     align-items: center;
     justify-content: space-between;
     position: relative;
-    padding: 6rem 2rem 2rem;
+    padding: 3rem 2rem 1.5rem;
     max-width: var(--max-width);
     margin: 0 auto;
     gap: 4rem;

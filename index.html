@@ -29,7 +29,6 @@
         <div class="nav-content">
             <a href="#hero" class="logo">WENYAN <span>HU</span></a>
             <ul class="nav-links">
-                <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -48,8 +47,12 @@
             <h1 class="name">Wenyan Hu<span class="name-dot">.</span></h1>
             <h2 class="role">Senior Spatial Analyst &amp; GIS Specialist</h2>
             <p class="hero-desc">
-                Enterprise GIS administration, spatial data governance, and geospatial modelling with a passion for
-                scalable geospatial solutions.
+                GIS specialist with a PhD in Geomatic Engineering and experience in the Victorian Public Service,
+                focusing on enterprise GIS administration, spatial data governance, and geospatial modelling.
+            </p>
+            <p class="hero-desc">
+                Proficient in ArcGIS Suite, Python, JavaScript, FME, C#, and SQL, with experience developing web GIS
+                applications and automated workflows.
             </p>
             <div class="hero-actions">
                 <a href="#projects" class="btn-primary">View My Work</a>
@@ -75,46 +78,6 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="section animate-on-scroll">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-grid">
-                <div class="about-text glass-card">
-                    <p>
-                        I am a GIS specialist with a PhD in Geomatic Engineering and experience in the Victorian Public
-                        Service, focusing on enterprise GIS administration, spatial data governance, and geospatial
-                        modelling.
-                    </p>
-                    <p>
-                        I am proficient in the ArcGIS Suite, Python, JavaScript, FME, C# and SQL, with experience
-                        developing web GIS applications, ArcGIS Pro add-ins, and automated geoprocessing workflows.
-                    </p>
-                    <p>
-                        I am passionate about scalable geospatial solutions, data quality, and analytical tools that
-                        enhance decision-making, and I thrive in fast-paced, collaborative environments.
-                    </p>
-                </div>
-                <div class="about-stats">
-                    <div class="stat-card glass-card">
-                        <i class="fas fa-globe-americas"></i>
-                        <h3>GIS Specialist</h3>
-                        <p>Enterprise Administration & Modeling</p>
-                    </div>
-                    <div class="stat-card glass-card">
-                        <i class="fas fa-code"></i>
-                        <h3>Full Stack Web GIS</h3>
-                        <p>JS/TS, AWS, React & ArcGIS API</p>
-                    </div>
-                    <div class="stat-card glass-card">
-                        <i class="fas fa-robot"></i>
-                        <h3>Automation</h3>
-                        <p>Python Geoprocessing & FME Pipelines</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Skills Section -->
     <section id="skills" class="section alt-bg animate-on-scroll">
@@ -236,6 +199,18 @@
                     </div>
                 </a>
 
+                <a href="datasync.html" class="project-card glass-card"
+                    style="text-decoration: none; background: linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)), url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop') center/cover;">
+                    <div class="project-year">2024 — Current</div>
+                    <h3>Automated Spatial Data Sync</h3>
+                    <p>Built automated Python workflows to synchronize spatial data between ShareDrive and AWS EC2.
+                        Implemented Git-based pipelines for publishing and maintaining ArcGIS Server map services. <span
+                            style="color: var(--primary-color);">Read More</span></p>
+                    <div class="project-tags">
+                        <span>Python</span><span>AWS</span><span>Git</span>
+                    </div>
+                </a>
+
                 <div class="project-card glass-card"
                     style="background: linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)), url('https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=800&auto=format&fit=crop') center/cover;">
                     <div class="project-year">2024 — Current</div>
@@ -243,7 +218,8 @@
                     <p>Migrated and enhanced C# ArcGIS add-ins to automate planning scheme amendment workflows. (Click
                         to view details - Coming Soon)</p>
                     <div class="project-tags">
-                        <span>C#</span><span>ArcGIS Pro SDK</span><span>Automation</span>
+                        <span>C#</span><span>ArcGIS Pro SDK</span><span>ArcGIS
+                            Pro</span><span>Python</span><span>Automation</span>
                     </div>
                 </div>
 
@@ -255,42 +231,62 @@
                         workflows, web map configuration, and user management. <span
                             style="color: var(--primary-color);">Read More</span></p>
                     <div class="project-tags">
-                        <span>Web GIS</span><span>ETL</span><span>UI/UX</span>
-                    </div>
-                </a>
-
-                <a href="datasync.html" class="project-card glass-card"
-                    style="text-decoration: none; background: linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)), url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop') center/cover;">
-                    <div class="project-year">2024 — Current</div>
-                    <h3>Automated Spatial Data Sync</h3>
-                    <p>Built automated Python workflows to synchronize spatial data between ShareDrive and AWS EC2.
-                        Implemented Git-based pipelines for publishing and maintaining ArcGIS Server map services. <span
-                            style="color: var(--primary-color);">Read More</span></p>
-                    <div class="project-tags">
-                        <span>Python</span><span>AWS</span><span>CI/CD</span>
+                        <span>Web GIS</span><span>TypeScript</span><span>ETL</span><span>UI/UX</span>
                     </div>
                 </a>
 
                 <div class="project-card glass-card"
-                    style="background: linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)), url('https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=800&auto=format&fit=crop') center/cover;">
+                    style="background: linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)), url('https://images.unsplash.com/photo-1544383835-bda2bc66a55d?q=80&w=800&auto=format&fit=crop') center/cover;">
                     <div class="project-year">2023 — 2024</div>
-                    <h3>Vic3D WebApp & VicPlan Definition Plan</h3>
-                    <p>Enhanced 3D web mapping platform functionality and migrated Definition Plan geoprocessing tools
-                        to ArcGIS Pro 3.x, supporting mapping teams with spatial data management.</p>
+                    <h3>Vic3D WebApp</h3>
+                    <p>Enhanced 3D web mapping platform functionality for visualizing complex urban spatial data
+                        and developmental layers across Victoria.</p>
                     <div class="project-tags">
-                        <span>3D Mapping</span><span>Geoprocessing</span><span>Python</span>
+                        <span>3D Mapping</span><span>TypeScript</span><span>ArcGIS API</span><span>Web GIS</span>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card"
+                    style="background: linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)), url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop') center/cover;">
+                    <div class="project-year">Ongoing</div>
+                    <h3>Other WebApps</h3>
+                    <p>Developing internal geospatial dashboards and custom web tools for spatial data visualization
+                        and administrative monitoring.</p>
+                    <div class="project-tags">
+                        <span>JavaScript</span><span>ArcGIS Maps SDK</span><span>UI/UX</span>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card"
+                    style="background: linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)), url('https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?q=80&w=800&auto=format&fit=crop') center/cover;">
+                    <div class="project-year">2023 — 2024</div>
+                    <h3>VicPlan Definition Plan</h3>
+                    <p>Migrated and optimized geoprocessing tools to ArcGIS Pro 3.x, supporting mapping teams with
+                        automated spatial data governance.</p>
+                    <div class="project-tags">
+                        <span>Geoprocessing</span><span>Python</span><span>Data Governance</span>
                     </div>
                 </div>
 
                 <div class="project-card glass-card"
                     style="background: linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)), url('https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=800&auto=format&fit=crop') center/cover;">
                     <div class="project-year">2019 — 2021</div>
-                    <h3>Urban Traffic Simulation Research</h3>
+                    <h3>Urban Traffic Simulation</h3>
                     <p>Performed data processing and agent-based traffic simulation to analyse dynamic road events in
-                        Melbourne, contributing to peer-reviewed publications.</p>
+                        Melbourne, contributing to research publications.</p>
                     <div class="project-tags">
-                        <span>Agent-based Models</span><span>Data Processing</span><span>Research</span>
+                        <span>Agent-based Models</span><span>Python</span><span>Data Science</span><span>Big
+                            Data</span><span>Deep Learning</span>
                     </div>
+                </div>
+
+                <div class="project-card glass-card"
+                    style="background: linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)), url('https://images.unsplash.com/photo-1508615039623-a25605d2b022?q=80&w=800&auto=format&fit=crop') center/cover;">
+                    <div class="project-year">Upcoming</div>
+                    <h3>Coming Soon</h3>
+                    <p>New exciting projects in the pipeline involving enterprise spatial analytics and advanced machine
+                        learning integrations.</p>
+
                 </div>
 
             </div>
