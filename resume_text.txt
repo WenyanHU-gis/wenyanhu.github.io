@@ -1,0 +1,84 @@
+Wenyan Hu
+Senior Spatial Analyst
+@ wenyanhu8@gmail.com
+ 0469890275
+About me
+I am a GIS specialist with a PhD in Geomatic 
+Engineering and three years of experience 
+in the Victorian Public Service, focusing on 
+enterprise GIS administration, spatial data 
+governance, and geospatial modelling. I am 
+proficient in ArcGIS Suite, Python, JavaScript, 
+FME, C# and SQL, with experience developing 
+web GIS applications, ArcGIS Pro add-ins, 
+and automated geoprocessing workflows.
+I am passionate about scalable geospatial 
+solutions, data quality, and analytical tools 
+that enhance decision-making, and I thrive 
+in fast-paced, collaborative environments.
+Technical skills
+ Programming
+Python JavaScript TypeScript C#
+Java SQL
+ Web Dev
+AWS Node.js
+ArcGIS Maps SDK for Javascript
+Geoprocessing API
+ Libraries and Tools
+Pandas Numpy Arcpy ArcGIS
+PyTorch TensorFlow GeoPandas
+MATSim
+ Geospatial
+ArcGIS Pro ArcGIS Online
+ArcGIS Enterprise ArcGIS Survey123
+FME QGIS ENVI
+Languages
+English
+Chinese
+Experience
+Senior Spatial Analyst @ Department of Transport and Planning VIC 2023 — Current
+Responsible for developing and maintaining enterprise GIS applications, geoprocess­
+ing tools, and spatial data systems to support planning analysis and decision-making.
+Teaching Assistant @ University of Melbourne 2019 — 2024
+Tutor of underground and master level geospatial subjects on Geographic Information 
+System, Geospatial Informatics, Engineering Modelling.
+Projects
+ArcGIS Enterprise Deployment and Development 2025 — Current
+Deployed ArcGIS Enterprise on AWS EC2 including ArcGIS Server, Portal, Data Store, and Web 
+Adaptor. Managed security groups, migrated spatial datasets, and published feature and Geo­
+processing services.
+Add-in Tools for Amendment and Gazetted Map Printing 2024 — Current
+Migrated and enhanced C# ArcGIS add­ins to automate planning scheme amendment workflows, 
+generating amendment maps and gazetted outputs for statutory planning documentation.
+Renewables WebApp and Heritage WebApp 2024 — Current
+Developed and maintained GIS web applications  for renewable and heritage data, supporting 
+ETL workflows, web map configuration, and user management.
+Automated Spatial Data Sync and Map Services Publishing 2024 — Current
+Built automated Python workflows to synchronize spatial data between ShareDrive and AWS EC2. 
+Implemented Git­based pipelines for publishing and maintaining ArcGIS Server map services.
+Vic3D WebApp 2023 — 2024
+Enhanced 3D web mapping platform  functionality including layer management, user adminis­
+tration, and interface optimisation.
+VicPlan – Definition Plan Tool 2023 — 2024
+Migrated and enhanced Definition Plan geoprocessing tools  to ArcGIS Pro 3.x  and supported 
+mapping teams with tool development and spatial data management.
+Urban Traffic Simulation Research – Melbourne 2019 — 2021
+Performed data processing and agent­based traffic simulation to analyse dynamic road events, 
+contributing to peer­reviewed publications.
+Education
+2019 
+— 
+2023
+University of Melbourne Melbourne, Australia
+Doctor of Philosophy, Engineering — Thesis: Information sensing, transmission and 
+management between connected vehicles
+2016 
+— 
+2019
+East China Normal University Shanghai, China
+Master of Science, Physical Geography
+2012 
+— 
+2016
+Northwest A&F University Shaanxi, China
+Bachelor of Science, GIS
