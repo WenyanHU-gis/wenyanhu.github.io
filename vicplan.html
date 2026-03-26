@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VicPlan Definition Plan | Wenyan Hu</title>
+    <meta name="description"
+        content="Detailing the migration and optimization of VicPlan geoprocessing tools to ArcGIS Pro 3.x by Wenyan Hu.">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Simplified Navbar -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="index.html#projects" class="logo"><i class="fas fa-arrow-left"></i> Back to
+                <span>Portfolio</span></a>
+        </div>
+    </nav>
+
+    <section class="section" style="padding-top: 120px; min-height: 100vh;">
+        <div class="container">
+            <div class="glass-card" style="max-width: 800px; margin: 0 auto;">
+                <div class="project-year" style="color: var(--primary-color); font-weight: 600; margin-bottom: 1rem;">
+                    2023 — 2024</div>
+                <h1 style="color: var(--text-color); font-family: var(--font-heading); margin-bottom: 1.5rem;">VicPlan
+                    Definition Plan</h1>
+
+                <div class="project-tags" style="margin-bottom: 2rem;">
+                    <span>Geoprocessing</span><span>Python</span><span>Data Governance</span>
+                </div>
+
+                <div style="color: var(--text-muted); font-size: 1.1rem; line-height: 1.8;">
+                    <p style="margin-bottom: 1.5rem;">
+                        The VicPlan Definition Plan project involved the comprehensive migration and optimization of
+                        critical geoprocessing tools from legacy environments to the modern ArcGIS Pro 3.x framework.
+                        This work was essential for maintaining Victoria's planning scheme amendment capabilities.
+                    </p>
+
+                    <!-- Main Project Image -->
+                    <div style="margin-bottom: 2.5rem; text-align: center;">
+                        <img src="photos/vicplan.png" alt="VicPlan System Architecture"
+                            style="width: 100%; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); border: 1px solid rgba(0,0,0,0.05);">
+                    </div>
+
+                    <h3 style="color: var(--text-color); margin-bottom: 1rem;">Key Responsibilities:</h3>
+                    <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 1.5rem;">
+                        <li>Refactored legacy Python scripts and ArcGIS Pro Add-ins to ensure compatibility with Python
+                            3 and the latest ArcGIS Pro APIs.</li>
+                        <li>Designed automated data validation workflows to ensure the integrity of planning scheme
+                            spatial data during the translation process.</li>
+                        <li>Collaborated with mapping teams to define requirements for custom toolsets that improve the
+                            speed and accuracy of definition plan production.</li>
+                        <li>Optimized geoprocessing performance, reducing the execution time of complex spatial
+                            buffering and overlay operations.</li>
+                        <li>Developed a local Python tool in ArcGIS Pro to handle complex geometry issues when zone or
+                            overlay geometries were too complex to process in the application, providing a reliable
+                            fallback workflow.</li>
+                    </ul>
+
+                    <!-- Example Image -->
+                    <div style="margin-bottom: 2.5rem; text-align: center;">
+                        <img src="photos/vicplan_example.png" alt="VicPlan Tool Interface Example"
+                            style="width: 100%; max-width: 600px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); border: 1px solid rgba(0,0,0,0.05);">
+                        <p style="font-size: 0.9rem; margin-top: 0.5rem;">Example of the optimized planning scheme tool
+                            interface.</p>
+                    </div>
+
+                    <h3 style="color: var(--text-color); margin-bottom: 1rem;">Impact:</h3>
+                    <p>
+                        Successful transition to a modern GIS environment ensured the continuity of the state's planning
+                        operations and provided mapping teams with more reliable, higher-performance tools for daily
+                        spatial data management tasks.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            <p>&copy; <span id="year"></span> Wenyan Hu. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>

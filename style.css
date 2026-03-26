@@ -700,4 +700,14 @@ footer p {
         margin-left: 20px;
         padding: 1.5rem;
     }
+
+    .webapp-item > div {
+        grid-template-columns: 1fr !important;
+        gap: 1.5rem !important;
+    }
+    
+    .webapp-item:nth-child(even) > div {
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
 }

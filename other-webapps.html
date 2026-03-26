@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other WebApps Portfolio | Wenyan Hu</title>
+    <meta name="description"
+        content="A collection of specialized GIS web applications, dashboards, and administrative tools developed by Wenyan Hu.">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Simplified Navbar -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="index.html#projects" class="logo"><i class="fas fa-arrow-left"></i> Back to
+                <span>Portfolio</span></a>
+        </div>
+    </nav>
+
+    <section class="section" style="padding-top: 120px; min-height: 100vh;">
+        <div class="container">
+            <div class="glass-card" style="max-width: 900px; margin: 0 auto;">
+                <h1
+                    style="color: var(--text-color); font-family: var(--font-heading); margin-bottom: 2rem; text-align: center;">
+                    Other Specialized WebApps</h1>
+
+                <!-- Project Items List -->
+                <div class="webapps-list" style="display: flex; flex-direction: column; gap: 4rem;">
+
+                    <!-- App Item 1: Renewables Summary -->
+                    <div class="webapp-item animate-on-scroll">
+                        <div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 2rem; align-items: start;">
+                            <div class="webapp-screenshot">
+                                <a href="https://spatial.planning.vic.gov.au/planningwebmaps/renewablessummary.html"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <img src="photos/renewables_summary.png" alt="Renewables Summary Page Dashboard"
+                                        style="width: 100%; border-radius: 12px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); border: 1px solid rgba(0,0,0,0.05); transition: transform 0.3s ease;">
+                                </a>
+                                <p
+                                    style="font-size: 0.8rem; text-align: center; margin-top: 0.5rem; color: var(--text-muted);">
+                                    <i class="fas fa-external-link-alt"></i> <a
+                                        href="https://spatial.planning.vic.gov.au/planningwebmaps/renewablessummary.html"
+                                        target="_blank">Live Application</a>
+                                </p>
+                            </div>
+                            <div class="webapp-details">
+                                <h2 style="color: var(--primary-color); margin-bottom: 1rem;">Renewables Summary Page
+                                </h2>
+                                <p style="color: var(--text-muted); margin-bottom: 1rem;">
+                                    A high-visibility dashboard for the Department of Transport and Planning,
+                                    summarizing Victoria's renewable energy generation facilities by status and type.
+                                </p>
+                                <h3 style="font-size: 1rem; color: var(--text-color); margin-bottom: 0.5rem;">Key
+                                    Functions:</h3>
+                                <ul
+                                    style="list-style-type: disc; margin-left: 1.5rem; color: var(--text-muted); font-size: 0.95rem;">
+                                    <li><strong>Area Search:</strong> Quickly find and zoom to specific project areas.
+                                    </li>
+                                    <li><strong>Dynamic Summaries:</strong> Automatic tabulation of capacity (MW) across
+                                        operating, approved, and Lodged projects.</li>
+                                    <li><strong>Data Export:</strong> Functionality to download data tables for offline
+                                        analysis.</li>
+                                    <li><strong>Layer Management:</strong> Interactive layer list to toggle specific
+                                        project visibility.</li>
+                                    <li><strong>Categorical Tabs:</strong> Specific visualization for Solar, Wind,
+                                        Battery, and Bioenergy datasets.</li>
+                                </ul>
+                                <div style="margin-top: 1.5rem;">
+                                    <span
+                                        style="font-size: 0.85rem; color: var(--accent-color); font-weight: 600;">Technologies:</span>
+                                    <span style="font-size: 0.85rem; color: var(--text-muted);">ArcGIS API for
+                                        JavaScript, Python, Spatial Data Governance</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr style="border: 0; border-top: 1px solid rgba(0,0,0,0.1);">
+
+                    <!-- App Item 2: Asset Management Tool -->
+                    <!-- <div class="webapp-item animate-on-scroll">
+                        <div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 2rem; align-items: start;">
+                            <div class="webapp-details">
+                                <h2 style="color: var(--primary-color); margin-bottom: 1rem;">Asset Management Dashboard
+                                </h2>
+                                <p style="color: var(--text-muted); margin-bottom: 1rem;">
+                                    An internal tool designed for monitoring the distribution and lifecycle of critical
+                                    GIS assets and enterprise spatial services.
+                                </p>
+                                <h3 style="font-size: 1rem; color: var(--text-color); margin-bottom: 0.5rem;">Key
+                                    Functions:</h3>
+                                <ul
+                                    style="list-style-type: disc; margin-left: 1.5rem; color: var(--text-muted); font-size: 0.95rem;">
+                                    <li>Real-time monitoring of service uptime and request latency.</li>
+                                    <li>Automated inventory of geodatabase features and metadata.</li>
+                                    <li>User activity logging and administrative reporting.</li>
+                                </ul>
+                                <div style="margin-top: 1.5rem;">
+                                    <span
+                                        style="font-size: 0.85rem; color: var(--accent-color); font-weight: 600;">Technologies:</span>
+                                    <span style="font-size: 0.85rem; color: var(--text-muted);">JavaScript, ArcGIS Maps
+                                        SDK, Node.js</span>
+                                </div>
+                            </div>
+                            <div class="webapp-screenshot">
+                                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop"
+                                    alt="Dashboard Screenshot"
+                                    style="width: 100%; border-radius: 12px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); border: 1px solid rgba(0,0,0,0.05);">
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <hr style="border: 0; border-top: 1px solid rgba(0,0,0,0.1);">
+
+                    <!-- App Item 3: Heritage Data Viewer -->
+                    <!-- <div class="webapp-item animate-on-scroll">
+                        <div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 2rem; align-items: start;">
+                            <div class="webapp-screenshot">
+                                <img src="https://images.unsplash.com/photo-1599394022918-6c276a570aba?q=80&w=800&auto=format&fit=crop"
+                                    alt="Heritage Viewer"
+                                    style="width: 100%; border-radius: 12px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); border: 1px solid rgba(0,0,0,0.05);">
+                            </div>
+                            <div class="webapp-details">
+                                <h2 style="color: var(--primary-color); margin-bottom: 1rem;">Heritage & Cultural Hub
+                                </h2>
+                                <p style="color: var(--text-muted); margin-bottom: 1rem;">
+                                    A public-facing or internal spatial viewer for exploring historical and cultural
+                                    data layers with advanced filtering options.
+                                </p>
+                                <h3 style="font-size: 1rem; color: var(--text-color); margin-bottom: 0.5rem;">Key
+                                    Functions:</h3>
+                                <ul
+                                    style="list-style-type: disc; margin-left: 1.5rem; color: var(--text-muted); font-size: 0.95rem;">
+                                    <li>Categorical filtering of heritage site types and significance.</li>
+                                    <li>High-resolution basemap integration with historical overlays.</li>
+                                    <li>Direct link to administrative records for planning permit assessments.</li>
+                                </ul>
+                                <div style="margin-top: 1.5rem;">
+                                    <span
+                                        style="font-size: 0.85rem; color: var(--accent-color); font-weight: 600;">Technologies:</span>
+                                    <span style="font-size: 0.85rem; color: var(--text-muted);">Web AppBuilder, Custom
+                                        Widgets, SQL Server</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            <p>&copy; <span id="year"></span> Wenyan Hu. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
