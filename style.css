@@ -572,6 +572,11 @@ ul {
     margin: 0 auto;
 }
 
+.contact-box .section-title {
+    left: auto;
+    transform: none;
+}
+
 .contact-desc {
     color: var(--text-muted);
     margin-bottom: 2rem;
