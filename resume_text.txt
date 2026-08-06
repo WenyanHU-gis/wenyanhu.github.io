@@ -36,7 +36,10 @@ Languages
 English
 Chinese
 Experience
-Senior Spatial Analyst @ Department of Transport and Planning VIC 2023 — Current
+Senior GIS Consultant @ WSP 2026 — 2026
+Deliver GIS support for multidisciplinary infrastructure and environmental projects, with a focus on spatial data preparation, cartographic outputs, field data applications, and workflow improvement.
+
+Senior Spatial Analyst @ Department of Transport and Planning VIC 2023 — 2026
 Responsible for developing and maintaining enterprise GIS applications, geoprocess­
 ing tools, and spatial data systems to support planning analysis and decision-making.
 Teaching Assistant @ University of Melbourne 2019 — 2024

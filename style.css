@@ -518,6 +518,26 @@ ul {
     font-size: 0.95rem;
 }
 
+.timeline-content ul,
+.experience-list {
+    margin-top: 1rem;
+    padding-left: 1.25rem;
+    color: var(--text-muted);
+    font-size: 0.92rem;
+    line-height: 1.65;
+}
+
+.timeline-content li,
+.experience-list li {
+    margin-bottom: 0.75rem;
+}
+
+.timeline-content li strong,
+.experience-list li strong {
+    color: var(--text-color);
+    font-weight: 600;
+}
+
 /* Projects Section */
 .projects-grid {
     display: grid;
